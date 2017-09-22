@@ -106,7 +106,7 @@ var Calculator = {
     },
     // Función de raíz
     root: function() {
-        console.log("Aquí estaría la función para sacar raíz.");
+        alert("Aquí estaría la función para sacar raíz.");
     },
     // Función de cambiar de positivo a negativo y viceversa
     sign: function() {
@@ -200,9 +200,6 @@ var Calculator = {
     },
     // Función para imprimir en el display de la Calculadora: recibe un valor o vacío
     printValue: function(val) {
-        console.log("Num1: " + this.num1 + "\tNum2: " + this.num2 + "\tNum3: " + this.num3);
-        console.log("Operator: " + this.operator + "\tRedo: " + this.redo);
-        console.log("Result Shown: " + this.resultShown);
         // Se asigna el valor recibido al elemento display
         document.getElementById('display').innerHTML = val;
     },
